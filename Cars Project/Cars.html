@@ -1,0 +1,4112 @@
+<!DOCTYPE html>
+<html lang="en">
+        <meta charset="utf-8">
+        <title>Update css Code</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <!-- font-awesome Link for Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <style>
+
+       *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+       }
+       body{
+        font-family: "Plus Jakarta Sans", sans-serif;
+       }
+       .container {
+            width:  100%;
+            margin: 0 auto;
+            overflow-x: hidden;
+        }
+      header{
+                display: flex;
+                width: 90rem;
+                height: 7.75rem;
+                background: #ffffff;
+                border: .0625rem soSlid #C3D4E966;
+                align-items: center;
+      }
+      .logo{
+                width: 9.25rem;
+                height: 2.7rem;
+                font-weight: 700;
+                font-size: 2rem;
+                line-height: 3rem;
+                color:#3563E9;
+             
+
+      }
+      .searchbar {
+               
+                    display: flex;
+                    width: 30.75rem;
+                    height: 2.75rem;
+                    background: #FFFFFF;
+                    border-radius: 2rem;
+                    padding: 0rem 0.75rem;
+                    margin-left: auto;
+}
+      .searchbar input{
+                
+                flex-grow: 1;
+                border-radius: 4.3rem;
+                border: 0.0625rem solid #C3D4E966;
+      }
+      .searchbar input::placeholder{
+       
+        font-weight: 700;
+        font-size: 0.875rem;
+        padding-left: 2rem;
+      }
+      .searchbar button{
+        width: 2.75rem;
+        height: 2.75rem;
+        background: transparent;
+        border: none;
+        font-size: 2rem;
+        cursor: pointer;
+      }
+      a{
+        text-decoration: none;
+      }
+        .menu {
+            display: flex;
+            margin-left: auto;
+            }
+      .menu ul{
+        display: flex;
+        list-style: none;
+        flex-direction: row;
+        
+      }
+      .menu ul li {
+  padding: 0.4375rem;
+  font-size: 2.1rem;
+}
+      .menu ul li a img{
+        Width:2.75rem;
+        height: 2.75rem;
+        border-radius: 5.625rem;
+      }
+      .carss {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-evenly;
+      }
+     .carss img{
+      width: 25.375rem;
+      height: 7.25rem;
+        align-self: end;
+        justify-content: center;
+        z-index: 1;
+
+     }
+     .carss h1{
+      font-size: 2rem;
+      font-weight:600 ;
+      width: 17.25rem;
+      height: 6rem;
+      color: #FFFFFF;
+      margin-left: 2rem;
+     }
+     .carss p{
+      font-size: 1rem;
+      font-weight:500 ;
+      width: 17.75rem;
+      height: 3rem;
+      color: #FFFFFF;
+      margin-left: 2rem;
+     }
+     .carss button {
+  width: 7.5rem;
+  height: 2.75rem;
+  padding: 0px 1.25rem 0px 1.25rem;
+  border-radius: .25rem 0px 0px 0px;
+  background: #3563E9;
+  border: none;
+  margin-left: 2rem;
+  color: #FFFFFF;
+  margin-top: 1rem;
+}
+     .car1{
+        width: 40rem;
+        height: 22.5rem;
+        border-radius:.625rem 0px 0px 0px;
+        opacity: 0px;
+        background: #54A6FF;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        overflow-x: hidden;
+        z-index: 2;
+        overflow-y: hidden;
+     }
+ 
+.city {
+  background-image: url(city.png);
+  width: 1000%;
+  height: 9rem;
+  margin-bottom: 0rem;
+  background-repeat: repeat-x;
+  z-index: 1;
+  background-size: 20% 100%;
+  animation: city 50s linear infinite;
+}
+@keyframes city {
+  100% {
+    transform: translateX(-3400px);
+  }
+}
+.road {
+  background-image: url(road.jpg);
+  width: 1000%;
+  height: 9rem;
+  margin-bottom: -5.1rem;
+  background-repeat: repeat-x;
+  z-index: 1;
+  background-size: 20% 100%;
+  animation: road 20s linear infinite;
+}
+@keyframes road {
+  100% {
+    transform: translateX(-3400px);
+  }
+}
+
+.carss img[alt="tyer1"] {
+  width: 5rem;
+  margin-right: 17.5rem;
+  margin-bottom: -4.5rem;
+  z-index: 2;
+  height: 5rem;
+  animation: wheel .5s linear infinite;
+}
+.carss img[alt="tyer2"] {
+  width: 5rem;
+  margin-right: 2.5rem;
+  margin-bottom: -7.8rem;
+  z-index: 2;
+  height: 5rem;
+  animation: wheel .5s linear infinite;
+}
+@keyframes wheel {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+      .car2{
+        width:40rem;
+        height:22.5rem;
+        border-radius: .625rem 0px 0px 0px;
+        opacity: 0px;
+        background: #54A6FF;
+        display: flex;
+        justify-content: end;
+        flex-direction: column;
+        overflow-x: hidden;
+        z-index: 2;
+        overflow-y: hidden;
+     }
+                    .pick-up {
+                  width: 36rem;
+                  height: 8.25rem;
+                  border-radius: .625rem 0px 0px 0px;
+                  display: flex;
+                  justify-content: space-around;
+                  margin-left: 5rem;
+                  margin-top: -3rem;
+                }
+                .drop-up {
+                  width: 36.375rem;
+                  height:8.25rem;
+                  border-radius: 0.625rem 0px 0px 0px;
+                  display: flex;
+                  justify-content: space-around;
+                  margin-right: 3rem;
+                  margin-top: -3rem;
+                }
+                        
+                        .times {
+                          display: flex;
+                          flex-direction: row;
+                          justify-content: space-around;
+                        }
+                        .times span {
+                  width:2.75rem;
+                  height: 2.75rem;
+                  background: blue;
+                  color: white;
+                  font-size: 2rem;
+                  border-radius: .43rem;
+                  border: none;
+                  margin: 1rem 3rem;
+                    margin-top: 1rem;
+                    margin-right: 3rem;
+                  margin-top: 7rem;
+                  margin-right: -25rem;
+                }
+                  :is(.pick-up,.drop-up) button{
+                      background: none;
+                      border: none;
+                      padding-left: 1rem;
+                    }
+
+
+                    .timeing {
+                  display: flex;
+                  align-items: baseline;
+                  margin-left: -10rem;
+                }
+                .timeing1 {
+                  display: flex;
+                  align-items: baseline;
+                  margin-right: 15rem;
+                }
+                    .timeing button{
+                      width: .625rem;
+                      height: .25rem;
+                      border: none;
+                      font-size: 1.5rem;
+                      margin: 2rem 3rem;
+                      background: none;
+                    }
+                    .timeing1 button{
+                      width:.625rem;
+                      height: 0.25rem;
+                      border: none;
+                      font-size: 1.5rem;
+                      margin: 2rem 3rem;
+                      background: none;
+                    }
+                    .timeing h1{
+                      margin: 2rem -1rem;
+                    }
+                    .timetable {
+                  display: flex;
+                  flex-direction: row;
+                  justify-content: space-between;
+                }
+
+
+
+
+
+                .popular {
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        width:82rem;
+                        height: 2.75rem;
+                        margin-left: 5rem;
+                        align-content: baseline;
+                      }
+                .popular h4{
+                  width: 5.75rem;
+                  height: 1.5rem;
+
+                }
+                .popular button {
+                  width: 6.5rem;
+                  height: 2.75rem;
+                  padding: 0px 1.25rem 0px 1.25rem;
+                  border-radius: 0.25rem 0px 0px 0px;
+                  background: none;
+                  border: none;
+                  color: blue;
+                  font-weight: bold;
+                }
+               :is(.popular-car, .popular-car2, .popular-car3){
+                  width:82rem;
+                  height:24.25rem;
+                  display: flex;
+                  flex-direction: row;
+                  margin-left: 3rem;
+                  margin-top: 2rem;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4){
+                  width: 19rem;
+                  height: 24.25rem;
+                  border-radius: .625rem 0px 0px 0px;
+                  margin: 0 5rem;
+                }
+                .details {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                  }
+                  :is(.catalog1, .catalog2, .catalog3, .catalog4) p {
+                    width: 8rem;
+                    height: 1.5rem;
+                    font-size: 1.3rem;
+                    font-weight: bolder;
+                  }
+              
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) i{
+                  width: 1.5rem;
+                    height: 1.5rem;
+                    top: 1.5rem;
+                    left: 16rem;
+                    gap: 0px;
+                    opacity: 0px;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) span {
+                  font-size: 1rem;
+                  font-weight: initial;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) img{
+                  width: 17.5rem;
+                      height: 5.3rem;
+                      margin-top: 4rem;
+                }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4)  .features {
+                      display: flex;
+                      flex-direction: row;
+                      justify-content: space-between;
+                      color: #90a3bf;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4)  .petrol {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .gear {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .seats {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4)  .deal {
+                      flex-direction: row;
+                      display: flex;
+                    }
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+                      font-size: 1.6rem;
+                      width: 10rem;
+                      margin-top: .8rem;
+                    }
+
+                    :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+                      background: blue;
+                      border: none;
+                      color: white;
+                      width: 6.25rem;
+                      height: 2.5rem;
+                      opacity: 0px;
+                      border-radius: .3rem;
+                      margin-left: 2.5rem;
+                      margin-top: .5rem;
+                    }
+                :is(.catalog1, .catalog2, .catalog3, .catalog4) .price span{
+                      color: #90a3bf;
+                    }
+
+
+
+                    .show.more {
+                              display: flex;
+                              flex-direction: row;
+                              font-size: 1rem;
+                              justify-content: space-between;
+                              margin-left: 43rem;
+                            }
+
+                            .show.more button {
+                              padding: 1rem;
+                              color: white;
+                              background: blue;
+                              border-radius: .5rem;
+                              border: none;
+                              font-weight: bold;
+                            }
+
+                            .show.more h4 {
+                                color: gray;
+                                margin-right: 3rem;
+                                padding-top: 1rem;
+                              }
+
+
+
+                            .footerend {
+                              display: flex;
+                              flex-direction: row;
+                              justify-content: space-around;
+                              margin-top: 8rem;
+                            }
+                            .footer-description {
+                              display: flex;
+                              flex-direction: column;
+                              line-height: 2rem;
+                            }
+                            :is(.about, .coumunity, .social) {
+                              display: flex;
+                              flex-direction: column;
+                              line-height: 2.5rem;
+                              margin-top: -.5rem;
+                            }
+                            .footer-description h1 {
+                              padding-bottom: 2rem;
+                            }
+                            .termms {
+                              display: flex;
+                              flex-direction: row;
+                              justify-content: space-around;
+                              margin-top: 5rem;
+                            }
+
+@media only screen and (max-width: 1440px) and (min-width: 1390px) {
+   .menu {
+    margin-right: 3.2rem;
+  }
+}
+
+@media only screen and (max-width: 1389px) and (min-width: 1350px) {
+ .menu {
+    margin-right: 5.2rem;
+  }
+  .popular {
+  margin-left: 3rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: 2rem;
+}
+}
+@media only screen and (max-width: 1349px) and (min-width: 1300px) {
+ .menu {
+    margin-right: 8.2rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: -1rem;
+}
+}
+@media only screen and (max-width: 1299px) and (min-width: 1250px) {
+   .menu {
+    margin-right: 11.2rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+:is(.car1, .car2) {
+ width: 600px;
+}
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+  margin-right: 5rem;
+}
+
+}
+@media only screen and (max-width: 1249px) and (min-width: 1200px) {
+   .menu {
+    margin-right: 15.5rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+ :is(.car1, .car2) {
+    width: 575px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) {
+  width: 250px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -2rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+  .popular button {
+    margin-right: 10rem;
+  }
+.show.more {
+  margin-left: 33rem;
+}
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 1150px) {
+   .menu {
+    margin-right: 18.5rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+   :is(.car1, .car2) {
+    width: 525px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) {
+  width: 250px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+    .popular button {
+    margin-right: 12rem;
+  }
+.show.more {
+  margin-left: 33rem;
+}
+:is(.drop-up,.pick-up) {
+  width: 480px;
+}
+header {
+  width: 88rem;
+}
+
+}
+
+
+@media only screen and (max-width: 1149px) and (min-width: 1100px) {
+  .menu {
+    margin-right: 21.5rem;
+  }
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 525px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) {
+  width: 200px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 5rem;
+}
+ :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -1rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 16rem;
+  }
+.show.more {
+  margin-left: 33rem;
+}
+:is(.drop-up,.pick-up) {
+  width: 480px;
+}
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+  margin-right: 11rem;
+}
+.timeing {
+  margin-left: -12rem;
+}
+}
+
+@media only screen and (max-width: 1099px) and (min-width: 1050px) {
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 24rem;
+  }
+  .logo {
+  font-size: 1.5rem;}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 500px;
+  }
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 5rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -2rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 20rem;
+  }
+  .show.more {
+    margin-left: 29rem;
+  }
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -19rem;
+}
+}
+
+
+
+@media only screen and (max-width: 1049px) and (min-width: 1000px) {
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 27rem;
+  }
+  .logo {
+  font-size: 1.5rem;}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 450px;
+  }
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) {
+    width: 250px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 2rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 20rem;
+  }
+  .show.more {
+    margin-left: 29rem;
+  }
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+}
+
+
+@media only screen and (max-width: 999px) and (min-width: 950px) {
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 30.2rem;
+  }
+  .logo {
+  font-size: 1.3rem;}
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 450px;
+  }
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 26rem;
+  }
+  .show.more {
+    margin-left: 25rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+  :is(.drop-up, .pick-up) {
+    width: 400px;
+    font-size: .7rem;
+  }
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+}
+
+
+@media only screen and (max-width: 949px) and (min-width: 900px) {
+  .carss img[alt="tyer1"] {
+  width: 4.6rem;
+  margin-right: 14.5rem;
+  margin-bottom: -4.5rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+.carss img[alt="tyer2"] {
+  width: 4.6rem;
+  margin-right: 2.5rem;
+  margin-bottom: -6.9rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+  .searchbar {
+  width: 400px;}
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 33.2rem;
+  }
+  .logo {
+  font-size: 1.3rem;}
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 425px;
+  }
+  .carss img {
+  width: 350px;
+  height: 116px;}
+
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+.popular h4 {
+  margin-left: 5rem;
+}
+.popular button {
+    margin-right: 30rem;
+  }
+  .show.more {
+    margin-left: 25rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+}
+
+@media only screen and (max-width: 899px) and (min-width: 850px) {
+  .carss img[alt="tyer1"] {
+  width: 4.6rem;
+  margin-right: 14.5rem;
+  margin-bottom: -4.5rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+.carss img[alt="tyer2"] {
+  width: 4.6rem;
+  margin-right: 2.5rem;
+  margin-bottom: -6.9rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+  .searchbar {
+    width: 350px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 36.5rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 400px;
+  }
+  .carss img {
+    width: 346px;
+    height: 116px;
+  }
+
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+  :is(.pick-up, .drop-up) button {
+  background: none;
+  border: none;
+  padding-left: 7rem;
+  margin-top: -1rem;
+  align-content: center;
+  display: flex;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+  margin-left: 3rem;
+}
+.popular button {
+    margin-right: 32rem;
+  }
+  .show.more {
+    margin-left: 24rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+
+.drop-up {
+  margin-right: 2rem;
+}
+.pick-up {
+  margin-left: 2rem;
+}
+.timeing1 {
+    margin-right: 9rem;
+  }
+  .timeing {
+    margin-left: -10rem;
+  }
+.times span {
+  margin-top: 7rem;
+  margin-right: -18rem;
+}
+}
+
+
+@media only screen and (max-width: 849px) and (min-width: 800px) {
+  .carss img[alt="tyer1"] {
+    width: 4.6rem;
+    margin-right: 13.5rem;
+    margin-bottom: -4.1rem;
+    z-index: 2;
+    height: 4.6rem;
+    animation: wheel .5s linear infinite;
+  }
+.carss img[alt="tyer2"] {
+  width: 4.6rem;
+  margin-right: 2.5rem;
+  margin-bottom: -6.9rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+  .searchbar {
+    width: 350px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.menu {
+    margin-right: 39.8rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 375px;
+  }
+  .carss img {
+    width: 325px;
+    height: 116px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.8rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3 ) {
+    width: 200px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+  margin-left: 3rem;
+}
+.popular button {
+    margin-right: 33rem;
+  }
+  .show.more {
+    margin-left: 24rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .7rem;
+  }
+
+  .drop-up {
+    margin-right: 1.5em;
+  }
+.pick-up {
+    margin-left: 1.5rem;
+  }
+ .timeing1 {
+    margin-right: 10rem;
+  }
+  .timeing {
+    margin-left: -7rem;
+  }
+  .times span {
+    margin-top: 7rem;
+    margin-right: -14rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+}
+
+
+@media only screen and (max-width: 799px) and (min-width: 750px) {
+  .carss img[alt="tyer1"] {
+    width: 4.6rem;
+    margin-right: 13.5rem;
+    margin-bottom: -4.1rem;
+    z-index: 2;
+    height: 4.6rem;
+    animation: wheel .5s linear infinite;
+  }
+.carss img[alt="tyer2"] {
+  width: 4.6rem;
+  margin-right: 2.5rem;
+  margin-bottom: -6.9rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+  .searchbar {
+    width: 325px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .9rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+ .menu {
+    margin-right: 42.3rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 350px;
+  }
+  .carss img {
+    width: 325px;
+    height: 116px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.8rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 2rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+.popular h4 {
+  margin-left: 3rem;
+}
+  .popular button {
+    margin-right: 36rem;
+  }
+   .show.more {
+    margin-left: 20rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+  :is(.drop-up, .pick-up) {
+    width: 320px;
+    font-size: .7rem;
+  }
+
+  .drop-up {
+    margin-right: .5em;
+  }
+.pick-up {
+    margin-left: .5rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+  .timeing {
+    margin-left: -7rem;
+  }
+  .times span {
+    margin-top: 7rem;
+    margin-right: -12rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+}
+@media only screen and (max-width: 749px) and (min-width: 700px) {
+  .carss img[alt="tyer1"] {
+    width: 4.6rem;
+    margin-right: 13.5rem;
+    margin-bottom: -4.1rem;
+    z-index: 2;
+    height: 4.6rem;
+    animation: wheel .5s linear infinite;
+  }
+.carss img[alt="tyer2"] {
+  width: 4.6rem;
+  margin-right: 2.5rem;
+  margin-bottom: -6.9rem;
+  z-index: 2;
+  height: 4.6rem;
+  animation: wheel .5s linear infinite;
+}
+  .searchbar {
+    width: 325px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .9rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+  .menu {
+    margin-right: 45.8rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 325px;
+  }
+  .carss img {
+    width: 325px;
+    height: 116px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+ :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) img {
+  width: 230px;
+  height: 85px;
+  margin-top: 4rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -1rem;
+  }
+.popular h4 {
+  margin-left: 2rem;
+}
+  .popular button {
+    margin-right: 40rem;
+  }
+   .show.more {
+    margin-left: 18rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 280px;
+    font-size: .6rem;
+  }
+
+  .drop-up {
+    margin-right: 1em;
+  }
+  .pick-up {
+    margin-left: 1rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+  .timeing {
+    margin-left: -7rem;
+  }
+   .times span {
+    margin-top: 7rem;
+    margin-right: -10rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+}
+
+
+@media only screen and (max-width: 699px) and (min-width: 650px) {
+  .carss img[alt="tyer1"] {
+    width: 4.1rem;
+    margin-right: 11.5rem;
+    margin-bottom: -3.8rem;
+    z-index: 2;
+    height: 4.1rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 4.1rem;
+    margin-right: 1.5rem;
+    margin-bottom: -6.1rem;
+    z-index: 2;
+    height: 4.1rem;
+    animation: wheel .5s linear infinite;
+  }
+  .searchbar {
+    width: 325px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .9rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+   .menu {
+    margin-right: 49rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+  :is(.timeing,.timeing1) {
+  font-size: .9rem;
+}
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+  :is(.car1, .car2) {
+    width: 300px;
+  }
+   .carss img {
+    width: 285px;
+    height: 100px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+ :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+   :is(.catalog1, .catalog2, .catalog3) {
+    width: 250px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+.popular h4 {
+  margin-left: 2rem;
+}
+   .popular button {
+    margin-right: 42rem;
+  }
+   .show.more {
+    margin-left: 18rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+    :is(.drop-up, .pick-up) {
+    width: 280px;
+    font-size: .6rem;
+  }
+.catalog3 {
+  display: none;
+}
+  .drop-up {
+    margin-right: 1em;
+  }
+  .pick-up {
+    margin-left: 1rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+   .timeing {
+    margin-left: -5rem;
+  }
+   .times span {
+    margin-top: 7rem;
+    margin-right: -10rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1.5rem;
+  margin: 2rem 2.2rem;
+  background: none;
+}
+}
+
+
+@media only screen and (max-width: 649px) and (min-width: 600px) {
+  .carss img[alt="tyer1"] {
+    width: 4.1rem;
+    margin-right: 11.5rem;
+    margin-bottom: -3.8rem;
+    z-index: 2;
+    height: 4.1rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 4.1rem;
+    margin-right: 1.5rem;
+    margin-bottom: -6.1rem;
+    z-index: 2;
+    height: 4.1rem;
+    animation: wheel .5s linear infinite;
+  }
+  .searchbar {
+    width: 300px;
+  }
+  .menu ul li {
+  padding: 7px;
+  font-size: 1.5rem;
+}
+.carss h1 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  width: 17.25rem;
+  height: 6rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+}
+.carss p {
+  font-size: .8rem;
+  font-weight: 500;
+  width: 17.75rem;
+  height: 3rem;
+  color: #FFFFFF;
+  margin-left: 2rem;
+  margin-top: -.7rem;
+}
+.carss button {
+    width: 6.5rem;
+    height: 2rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+   .menu {
+    margin-right: 52.2rem;
+  }
+  .logo {
+    font-size: 1rem;
+  }
+  :is(.timeing, .timeing1) {
+    font-size: .7rem;
+  }
+
+  .popular {
+  margin-left: .5rem;
+}
+.searchbar button {
+  font-size: 1.5rem;
+}
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: -3rem;
+  }
+    :is(.car1, .car2) {
+    width: 285px;
+  }
+   .carss img {
+    width: 285px;
+    height: 100px;
+  }
+  .times span {
+  width: 40px;
+  height: 38px;
+  background: blue;
+  color: white;
+  font-size: 1.5rem;
+  border-radius: 7px;
+  border: none;
+  margin: 1rem 3rem;
+  padding: .3rem;
+}
+  :is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+  width: 70px;
+  height: 30px;
+  opacity: 0px;
+  border-radius: .3rem;
+  margin-left: -0.5rem;
+  margin-top: .6rem;
+}
+ :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+  font-size: 1.2rem;
+  width: 10rem;
+  margin-top: .8rem;
+}
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 185px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1.5rem;
+  }
+   :is(.catalog1, .catalog2, .catalog3) {
+    width: 250px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+  margin-left: 2rem;
+}
+   .popular button {
+    margin-right: 45rem;
+  }
+   .show.more {
+    margin-left: 14rem;
+  }
+  .show.more button {
+  padding: .8rem;}
+
+     :is(.drop-up, .pick-up) {
+    width: 250px;
+    font-size: .6rem;
+  }
+.catalog3 {
+  display: none;
+}
+  .drop-up {
+    margin-right: 1em;
+  }
+  .pick-up {
+    margin-left: 1rem;
+  }
+  .timeing1 {
+    margin-right: 6rem;
+  }
+   .timeing {
+    margin-left: -5rem;
+  }
+   .times span {
+    margin-top: 7rem;
+    margin-right: -10rem;
+  }
+.timeing1 button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1rem;
+  margin: 2rem 1.2rem;
+  background: none;
+}
+.timeing button {
+  width: 10px;
+  height: 4px;
+  border: none;
+  font-size: 1rem;
+  margin: 2rem 2.2rem;
+  background: none;
+} 
+}
+
+@media only screen and (max-width: 599px) and (min-width: 550px) {
+  .carss img[alt="tyer1"] {
+    width: 4.5rem;
+    margin-right: 16.5rem;
+    margin-bottom: -4.2rem;
+    z-index: 2;
+    height: 4.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 4.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: -7.1rem;
+    z-index: 2;
+    height: 4.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .road {
+  height: 7rem;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.searchbar {
+    display: flex;
+    width: 350px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -2rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+.carss h1 {
+font-size: 1.2rem;
+font-weight: 600;
+width: 17.25rem;
+height: 6rem;
+color: #FFFFFF;
+margin-left: 2rem;
+}
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: -1.7rem;
+  }
+.carss button {
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: .25rem 0px 0px 0px;
+  background: #3563E9;
+  border: none;
+  margin-left: 2rem;
+  color: #FFFFFF;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 54.9rem;
+    margin-top: -2rem;
+  }
+  .logo {
+    font-size: 1.3rem;
+    margin-top: -2rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+margin-left: .5rem;
+}
+.searchbar button {
+font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: -3rem;
+}
+:is(.car1) {
+    width: 500px;
+  }
+  .carss img {
+    width: 385px;
+    height: 140px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+width: 70px;
+height: 30px;
+opacity: 0px;
+border-radius: .3rem;
+margin-left: -0.5rem;
+margin-top: .6rem;
+}
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 7.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+  width: 15.5rem;
+  height: 5.3rem;
+  margin-top: 4rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+    width: 225px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+.popular h4 {
+margin-left: 2rem;
+}
+.popular button {
+    margin-right: 47rem;
+  }
+ .show.more {
+  margin-left: 14rem;
+}
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 500px;
+    font-size: .9rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 3em;
+    margin-top: 1rem;
+  }
+.pick-up {
+    margin-top: -9.5rem;
+    margin-left: 2.5rem;
+  }
+  .timeing1 {
+    margin-left: 2rem;
+    margin-top: -2rem;
+  }
+.timeing {
+    margin-left: 1rem;
+  }
+  .times span {
+    margin-top: 3rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+}
+}
+  
+@media only screen and (max-width: 549px) and (min-width: 500px) {
+  .carss img[alt="tyer1"] {
+  width: 5rem;
+  margin-right: 16.5rem;
+  margin-bottom: -4.5rem;
+  z-index: 2;
+  height: 5rem;
+  animation: wheel .5s linear infinite;
+}
+.carss img[alt="tyer2"] {
+  width: 5rem;
+  margin-right: 2.5rem;
+  margin-bottom: -7.8rem;
+  z-index: 2;
+  height: 5rem;
+  animation: wheel .5s linear infinite;
+}
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.searchbar {
+    display: flex;
+    width: 350px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -3rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+.carss h1 {
+font-size: 1.2rem;
+font-weight: 600;
+width: 17.25rem;
+height: 6rem;
+color: #FFFFFF;
+margin-left: 2rem;
+}
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: -1.7rem;
+  }
+.carss button {
+  width: 6.5rem;
+  height: 2rem;
+  border-radius: .25rem 0px 0px 0px;
+  background: #3563E9;
+  border: none;
+  margin-left: 2rem;
+  color: #FFFFFF;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 58.9rem;
+    margin-top: -2rem;
+  }
+  .logo {
+    font-size: 1.3rem;
+    margin-top: -2rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+margin-left: .5rem;
+}
+.searchbar button {
+font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: -3rem;
+}
+:is(.car1) {
+    width: 450px;
+  }
+  .carss img {
+    width: 385px;
+    height: 140px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 4.5rem;
+    margin-top: .6rem;
+  }
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 6.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 22.5rem;
+    height: 7.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 350px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 5rem;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+.popular button {
+    margin-right: 50rem;
+  }
+ .show.more {
+  margin-left: 14rem;
+}
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 2em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 1.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -1rem;
+  }
+  .times span {
+    margin-top: 3rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 3rem;
+  font-size: .8rem;
+  margin-bottom: 1rem;
+}
+}
+
+
+@media only screen and (max-width: 499px) and (min-width: 450px) {
+  .carss img[alt="tyer1"] {
+    width: 4.5rem;
+    margin-right: 16.5rem;
+    margin-bottom: -4.3rem;
+    z-index: 2;
+    height: 4.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 4.5rem;
+    margin-right: 2.8rem;
+    margin-bottom: -6.8rem;
+    z-index: 2;
+    height: 4.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.city {
+  background-image: url(city.png);
+  width: 1000%;
+  height: 11rem;
+  margin-bottom: 0rem;
+  background-repeat: repeat-x;
+  z-index: 1;
+  background-size: 20% 100%;
+  animation: city 50s linear infinite;
+}
+.road {
+  background-image: url(road.jpg);
+  width: 1000%;
+  height: 6rem;
+  margin-bottom: -5.1rem;
+  background-repeat: repeat-x;
+  z-index: 1;
+  background-size: 20% 100%;
+  animation: road 20s linear infinite;
+}
+.searchbar {
+    display: flex;
+    width: 350px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -6rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 17.25rem;
+    height: 6rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+  }
+  .carss button {
+    width: 6.5rem;
+    height: 4rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 61.5rem;
+    margin-top: -2rem;
+  }
+  .logo {
+    font-size: 1.1rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+margin-left: .5rem;
+}
+.searchbar button {
+font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+  margin-left: -3rem;
+}
+:is(.car1) {
+    width: 425px;
+  }
+  .carss img {
+    width: 385px;
+    height: 140px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 5.5rem;
+    margin-top: .6rem;
+  }
+:is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 6.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 22.5rem;
+    height: 7.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 350px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 3rem;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .popular button {
+    margin-right: 55rem;
+  }
+  .show.more {
+    margin-left: 10rem;
+  }
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 450px;
+    font-size: .8rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -1rem;
+  }
+  .times span {
+    margin-top: 3rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 449px) and (min-width: 400px) {
+  .carss img[alt="tyer1"] {
+    width: 4.5rem;
+    margin-right: 16.5rem;
+    margin-bottom: -4.3rem;
+    z-index: 2;
+    height: 4.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 4.5rem;
+    margin-right: 2.8rem;
+    margin-bottom: -6.8rem;
+    z-index: 2;
+    height: 4.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.city {
+  background-image: url(city.png);
+  width: 1000%;
+  height: 11rem;
+  margin-bottom: 0rem;
+  background-repeat: repeat-x;
+  z-index: 1;
+  background-size: 20% 100%;
+  animation: city 50s linear infinite;
+}
+.road {
+    background-image: url(road.jpg);
+    width: 1000%;
+    height: 8rem;
+    margin-bottom: -5.1rem;
+    background-repeat: repeat-x;
+    z-index: 1;
+    background-size: 20% 100%;
+    animation: road 20s linear infinite;
+  }
+  .searchbar {
+    display: flex;
+    width: 250px;
+    height: 2.75rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -5rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 17.25rem;
+    height: 6rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+  }
+  .carss button {
+    width: 6.5rem;
+    height: 4rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 64.5rem;
+    margin-top: -1rem;
+  }
+  .logo {
+    font-size: 1rem;
+    margin-top: -1.1rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .9rem;
+}
+
+.popular {
+    margin-left: -0.5rem;
+    margin-top: -3rem;
+  }
+.searchbar button {
+font-size: 1.5rem;
+}
+:is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 2.5rem;
+  }
+:is(.car1) {
+    width: 400px;
+    height: 21.5rem;
+  }
+  .carss img {
+    width: 385px;
+    height: 140px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 5.5rem;
+    margin-top: .6rem;
+  }
+  :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 5.7rem;
+    margin-top: -1rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 22.5rem;
+    height: 7.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 350px;
+    height: 388px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .popular button {
+    margin-right: 55rem;
+  }
+  .show.more {
+    margin-left: 10rem;
+  }
+.show.more button {
+padding: .8rem;}
+
+:is(.drop-up, .pick-up) {
+    width: 400px;
+    font-size: .7rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -1rem;
+  }
+  .times span {
+    margin-top: 4rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .6rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+@media only screen and (max-width: 399px) and (min-width: 350px) {
+  .carss img[alt="tyer1"] {
+    width: 4rem;
+    margin-right: 14.5rem;
+    margin-bottom: -3.8rem;
+    z-index: 2;
+    height: 4rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 4rem;
+    margin-right: 2.4rem;
+    margin-bottom: -6.3rem;
+    z-index: 2;
+    height: 4rem;
+    animation: wheel .5s linear infinite;
+  }
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.city {
+  background-image: url(city.png);
+  width: 1000%;
+  height: 11rem;
+  margin-bottom: 0rem;
+  background-repeat: repeat-x;
+  z-index: 1;
+  background-size: 20% 100%;
+  animation: city 50s linear infinite;
+}
+.road {
+    background-image: url(road.jpg);
+    width: 1000%;
+    height: 8rem;
+    margin-bottom: -5.1rem;
+    background-repeat: repeat-x;
+    z-index: 1;
+    background-size: 20% 100%;
+    animation: road 20s linear infinite;
+  }
+  .searchbar {
+    display: flex;
+    width: 200px;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -7rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 17.25rem;
+    height: 6rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+  }
+  .carss button {
+    width: 6.5rem;
+    height: 4rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 67.6rem;
+    margin-top: -1rem;
+  }
+  .logo {
+    font-size: .9rem;
+    margin-top: -1.1rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .8rem;
+}
+
+.popular {
+    margin-left: -0.5rem;
+    margin-top: -3rem;
+  }
+  .searchbar button {
+    font-size: 1rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 1rem;
+  }
+  :is(.car1) {
+    width: 350px;
+    height: 19.5rem;
+  }
+  .carss img {
+    width: 340px;
+    height: 120px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 3.5rem;
+    margin-top: .6rem;
+  }
+  :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -.8rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+  width: 185px;
+  height: 388px;
+  border-radius: 10px 0px 0px 0px;
+  margin: 0 1.5rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 20.5rem;
+    height: 6.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 300px;
+    height: 325px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .popular button {
+    margin-right: 58rem;
+  }
+  .show.more {
+    margin-left: 8rem;
+  }
+  .show.more button {
+    padding: .4rem;
+  }
+
+:is(.drop-up, .pick-up) {
+    width: 350px;
+    font-size: .6rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: -1rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -2rem;
+  }
+  .times span {
+    margin-top: 4rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+  font-size: .9rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+  font-size: .8rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+
+@media only screen and (max-width: 349px) and (min-width: 320px) {
+  .carss img[alt="tyer1"] {
+    width: 3.5rem;
+    margin-right: 12rem;
+    margin-bottom: -3.3rem;
+    z-index: 2;
+    height: 3.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .carss img[alt="tyer2"] {
+    width: 3.5rem;
+    margin-right: 2.2rem;
+    margin-bottom: -5.3rem;
+    z-index: 2;
+    height: 3.5rem;
+    animation: wheel .5s linear infinite;
+  }
+  .searchbar input {
+  flex-grow: 1;
+  border-radius: 4.3rem;
+  border: 0.0625rem solid #C3D4E966;
+  padding: 0 3rem;
+}
+.city {
+    background-image: url(city.png);
+    width: 1000%;
+    height: 13rem;
+    margin-bottom: 0rem;
+    background-repeat: repeat-x;
+    z-index: 1;
+    background-size: 20% 100%;
+    animation: city 50s linear infinite;
+  }
+.road {
+    background-image: url(road.jpg);
+    width: 1000%;
+    height: 11rem;
+    margin-bottom: -5.1rem;
+    background-repeat: repeat-x;
+    z-index: 1;
+    background-size: 20% 100%;
+    animation: road 20s linear infinite;
+  }
+  .searchbar {
+    display: flex;
+    width: 200px;
+    height: 2.5rem;
+    background: #FFFFFF;
+    border-radius: 2rem;
+    padding: 0rem 0.75rem;
+    margin: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-top: auto;
+    margin-top: 5rem;
+    margin-left: -8rem;
+  }
+.menu ul li {
+padding: 7px;
+font-size: 1.5rem;
+}
+.menu ul li:nth-child(1) {
+   display: none;
+}
+.menu ul li:nth-child(2) {
+  display: none;
+  }
+  .menu ul li:nth-child(3) {
+    display: none;
+  }
+  .carss h1 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 17.25rem;
+    height: 6rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 2rem;
+  }
+.carss p {
+    font-size: .8rem;
+    font-weight: 500;
+    width: 17.75rem;
+    height: 3rem;
+    color: #FFFFFF;
+    margin-left: 2rem;
+    margin-top: 0.8rem;
+  }
+  .carss button {
+    width: 6.5rem;
+    height: 4rem;
+    border-radius: .25rem 0px 0px 0px;
+    background: #3563E9;
+    border: none;
+    margin-left: 2rem;
+    color: #FFFFFF;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+  }
+.car2 {
+  display: none;
+}
+.menu {
+    margin-right: 69.5rem;
+    margin-top: -1rem;
+  }
+  .logo {
+    font-size: .8rem;
+  }
+:is(.timeing, .timeing1) {
+  font-size: .8rem;
+}
+
+.popular {
+    margin-left: -0.5rem;
+    margin-top: -3rem;
+  }
+  .searchbar button {
+    font-size: 1rem;
+  }
+  :is(.popular-car, .popular-car2, .popular-car3) {
+    margin-left: 0rem;
+  }
+  :is(.car1) {
+    width: 350px;
+    height: 19.5rem;
+  }
+  .carss img {
+    width: 285px;
+    height: 100px;
+  }
+  .times {
+  display: flex;
+  flex-direction: column;
+}
+.times span {
+width: 40px;
+height: 38px;
+background: blue;
+color: white;
+font-size: 1.5rem;
+border-radius: 7px;
+border: none;
+margin: 1rem 3rem;
+padding: .3rem;
+}
+:is(.catalog1, .catalog2, .catalog3, .catalog4) .deal button {
+    width: 100px;
+    height: 30px;
+    opacity: 0px;
+    border-radius: .3rem;
+    margin-left: 2.5rem;
+    margin-top: .6rem;
+  }
+  :is(.pick-up, .drop-up) button {
+    background: none;
+    border: none;
+    padding-left: 4.7rem;
+    margin-top: -.8rem;
+    align-content: center;
+    display: flex;
+  }
+:is(.catalog1, .catalog2, .catalog3) .deal h1 {
+font-size: 1.2rem;
+width: 10rem;
+margin-top: .8rem;
+}
+:is(.catalog1, .catalog2, .catalog3) {
+    width: 300px;
+    height: 325px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+:is(.catalog1, .catalog2, .catalog3, .catalog4) img {
+    width: 19.5rem;
+    height: 6.3rem;
+    margin-top: 4rem;
+  }
+  :is(.catalog1, .catalog2, .catalog3) {
+    width: 300px;
+    height: 325px;
+    border-radius: 10px 0px 0px 0px;
+    margin: 0 1rem;
+  }
+  :is( .catalog2, .catalog3) {
+  display: none;
+  }
+  .popular h4 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+  .popular button {
+    margin-right: 60.5rem;
+  }
+  .show.more {
+    margin-left: 6rem;
+  }
+  .show.more button {
+    padding: .4rem;
+  }
+
+  :is(.drop-up, .pick-up) {
+    width: 300px;
+    font-size: .6rem;
+  }
+.catalog3 {
+display: none;
+}
+.drop-up {
+    margin-left: 1em;
+    margin-top: 1rem;
+  }
+  .pick-up {
+    margin-top: -9.5rem;
+    margin-left: 0.5rem;
+  }
+  .timeing1 {
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: -2rem;
+  }
+  .timeing {
+    margin-left: -2rem;
+  }
+  .times span {
+    margin-top: 4rem;
+    margin-right: -26rem;
+  }
+.timeing1 button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 1.2rem;
+background: none;
+}
+.timeing button {
+width: 10px;
+height: 4px;
+border: none;
+font-size: 1rem;
+margin: 2rem 2.2rem;
+background: none;
+} 
+.timetable {
+  display: flex;
+  flex-direction: column;
+}
+.footerend {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 8rem;
+  flex-wrap: wrap;
+}
+.footer-description {
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 26rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  margin-top: -3rem;
+  font-size: .9rem;
+}
+:is(.about, .coumunity, .social) {
+  display: flex;
+  flex-direction: column;
+  line-height: 2.5rem;
+  margin-top: -.5rem;
+  font-size: .8rem;
+}
+.termms {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3rem;
+    font-size: .4rem;
+    margin-bottom: 1rem;
+  }
+}
+
+    </style>
+</head>
+<body>
+ <div class="container">
+
+
+    <header>
+            <div class="logo">
+                <h1>MORANT</h1>
+            </div>
+            <div class="searchbar">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                    <input type="text" placeholder="Search Some thing here ..." name="search">
+                    <button><i class="fa-solid fa-sliders"></i></button>
+            </div>
+        <nav class="menu">
+            <ul>
+                <li><a href=""><i class="fa-solid fa-heart" style="color: gray;"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-bell" style="color: gray"></i></a></li>
+                <li><a href=""><i class="fa-solid fa-gear" style="color: gray"></i></a></li>
+                <li><a href=""><img src="Profil.png" alt=""></a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+    <section>
+        <div class="carss">
+            <div class="car1">
+              <h1>The Best Platform for Car Rental</h1>
+              <p>Ease of doing a car rental safely and  <br> reliably.Of course at a low price.</p>
+              
+              <button>Rental Car</button>
+
+              <div class="city"></div>
+              <div class="road"> </div>
+  
+              <img src="wheel.png" alt="tyer1">
+              <img src="wheel.png" alt="tyer2">
+              
+                <img src="image 7.png" alt="">
+            </div>
+            <div class="car2">
+              <h1>Easy way to rent low price</h1>
+              <p>Providing cheap car rental services <br> safe and comfortable facilities.</p>
+              <button>Rental Car</button>
+              <div class="city"></div>
+              <div class="road"> </div>
+              <img src="wheel.png" alt="tyer1">
+              <img src="wheel.png" alt="tyer2">
+                <img src="image 8.png" alt="">
+            </div>
+        </div>
+
+
+
+        <div class="times">
+       <div class="timeing">
+          <button><i class="fa-regular fa-circle-dot"></i></button>
+         <h1>Pick-Up</h1>
+        </div>
+ <span><i class="fa-solid fa-arrow-down-up-across-line"></i></span>
+ <div class="timeing1">
+          <button><i class="fa-regular fa-circle-dot"></i></button>
+          <h1>Drop-Up</h1>
+        </div>
+      </div>
+
+
+
+
+      <div class="timetable">
+         <div class="pick-up">
+         <div class="location">
+          <h2>Location</h2>
+          <p>Select your City <button><i class="fa-solid fa-chevron-down"></i></button></p>
+         </div>
+        <div class="Date">
+          <h2>Date</h2>
+          <p>Select your Date <button><i class="fa-solid fa-chevron-down"></i></button></p>
+        </div>
+        <div class="Time">
+          <h2>Time</h2>
+          <p>Select your Time <button><i class="fa-solid fa-chevron-down"></i></button></p>
+        </div>
+        </div> 
+
+        <div class="drop-up">
+          <div class="location">
+           <h2>Location</h2>
+           <p>Select your City <button><i class="fa-solid fa-chevron-down"></i></button></p>
+          </div>
+         <div class="Date">
+           <h2>Date</h2>
+           <p>Select your Date <button><i class="fa-solid fa-chevron-down"></i></button></p>
+         </div>
+         <div class="Time">
+           <h2>Time</h2>
+           <p>Select your Time <button><i class="fa-solid fa-chevron-down"></i></button></p>    
+         </div>  
+         </div>  
+        </div>
+ 
+
+    </section>
+
+<main>
+<div class="popular">
+  <h4>Popular</h4>
+  <button>View All</button>
+</div>
+
+          <div class="popular-car">
+
+             <div class="catalog1">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="image 5.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog2">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-regular fa-heart" style="color: black;"></i>
+              </div>
+               
+              <img src="image 5.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog3">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="image 6.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+          </div>
+
+
+
+
+          <div class="popular-car2">
+            <div class="catalog1">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="image 5.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog2">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-regular fa-heart" style="color: black;"></i>
+              </div>
+               
+              <img src="image 5.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+             <div class="catalog3">
+              <div class="details">
+                <p>Koenigsegg
+                  <span>Sport</span>
+                </p>
+                <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+              </div>
+               
+              <img src="image 6.png" alt="">
+              <div class="features">
+                  <div class="petrol">
+                    <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                  </div>
+                  <div class="gear">
+                    <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                  </div>
+                  <div class="seats">
+                    <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                  </div>
+              </div>
+               <div class="deal">
+                <div class="price">
+                  <h1>$99.00/<span>day</span></h1>
+                </div>
+                <div class="rent">
+                 <button>
+                  Rent Now
+                 </button>
+                </div>
+               </div>
+             </div>
+
+          </div>
+
+
+
+
+         <div class="popular-car3">
+
+          <div class="catalog1">
+            <div class="details">
+              <p>Koenigsegg
+                <span>Sport</span>
+              </p>
+              <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+            </div>
+             
+            <img src="image 5.png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+
+           <div class="catalog2">
+            <div class="details">
+              <p>Koenigsegg
+                <span>Sport</span>
+              </p>
+              <i class="fa-regular fa-heart" style="color: black;"></i>
+            </div>
+             
+            <img src="image 6.png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+
+           <div class="catalog3">
+            <div class="details">
+              <p>Koenigsegg
+                <span>Sport</span>
+              </p>
+              <i class="fa-solid fa-heart" style="color: #fb2904;"></i>
+            </div>
+             
+            <img src="image 6.png" alt="">
+            <div class="features">
+                <div class="petrol">
+                  <i class="fa-solid fa-gas-pump"></i><h5>90</h5>
+                </div>
+                <div class="gear">
+                  <i class="fa-solid fa-dharmachakra"></i><h5>Manual</h5>
+                </div>
+                <div class="seats">
+                  <i class="fa-solid fa-user-group"></i><h5>2 Peoples</h5>
+                </div>
+            </div>
+             <div class="deal">
+              <div class="price">
+                <h1>$99.00/<span>day</span></h1>
+              </div>
+              <div class="rent">
+               <button>
+                Rent Now
+               </button>
+              </div>
+             </div>
+           </div>
+
+        </div>
+
+       <div class="show more">
+        <button>Show More Car</button>
+        <h4>120Cars</h4>
+      </div>
+</main>
+
+
+
+
+<footer class="footerend">
+
+<div class="footer-description">
+  <h1>MORANT</h1>
+
+  <p>
+    Our vision is to provide convenience<br> and  increase your sales business.
+  </p>
+</div>
+
+<div class="about">
+<h3>About</h3>
+<span>How it works</span>
+<span>Partnership </span>
+<span>Bussiness Relation</span>
+<span> Featured</span>
+</div>
+<div class="coumunity">
+  <h3>Comunity</h3>
+  <span>Events </span>
+  <span>Blog  </span>
+  <span>Invite a friend</span>
+  <span>Podcast</span>
+</div>
+<div class="social">
+  <h3>Social</h3>
+  <span>Discord </span>
+  <span>Instagram</span>
+  <span>Twitter </span>
+  <span>Facebook</span>
+</div>
+
+
+</footer>
+
+<div class="termms">
+  <h3>©2022 MORENT. All rights reserved</h3>
+  <h4>Privacy & Policy</h4>
+  <h4>Terms & Condition</h4>
+</div>
+
+</div>
+
+
+</body>
+</html>
